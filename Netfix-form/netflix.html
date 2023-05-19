@@ -46,17 +46,17 @@
               type="number"
               id="age"
               name="age"
-              placeholder="enter your age"
+              placeholder=" age"
               min="0"
               max="150"
             />
           </div>
           <div class="input-box">
-            <label for="e mail">E mail</label> <br />
+            <label for="email" id="email">Email</label> <br />
             <input
               type="email"
-              name="e mail"
-              id="e mail"
+              name="email"
+              id="email"
               placeholder="enter your e mail"
             />
           </div>
@@ -80,6 +80,23 @@
               <label for="third-check">Romance</label>
             </div>
           </div>
+          <div class="input-box" id="radio">
+            <label for="">Gender</label><br />
+            <input type="radio" name="gender" id="first-radio" value="Male" />
+            <label for="first-radio">Male</label><br />
+            <input type="radio" name="gender" id="second-radio" />
+            <label for="second-radio">Female</label> <br />
+            <input type="radio" name="gender" id="third-radio" />
+            <label for="third-radio">Other</label>
+          </div>
+          <label for="feedback">Feedback</label><br />
+          <textarea
+            placeholder="enter your feedback"
+            name="feedback"
+            id="feedback"
+            cols="30"
+            rows="10"
+          ></textarea>
           <div class="form-submit">
             <button id="form-button">Send</button>
           </div>
